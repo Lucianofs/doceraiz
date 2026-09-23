@@ -1,3 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: https://doceraiz.com.br/sitemap.xml
+Sitemap: https://lucianofs.github.io/doceraiz/sitemap.xml
