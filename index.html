@@ -1,6 +1,34 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
+<!-- INÍCIO DO RASTREAMENTO (PIXEL + GOOGLE ANALYTICS) -->
+<!-- Meta Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+// SUBSTITUA O NÚMERO ABAIXO PELO SEU ID DO PIXEL
+fbq('init', '761309078082826'); 
+fbq('track', 'PageView');
+</script>
+<!-- Fim Meta Pixel Code -->
+
+<!-- Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=COLE_SEU_ID_DO_GA4_AQUI"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  // SUBSTITUA O CÓDIGO ABAIXO PELO SEU ID DO GA4 (Ex: G-XXXXXXXXXX)
+  gtag('config', 'G-K9GYHTRHGH');
+</script>
+<!-- Fim Google Analytics -->
+<!-- FIM DO RASTREAMENTO -->
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
